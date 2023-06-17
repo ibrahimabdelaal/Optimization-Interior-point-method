@@ -22,7 +22,7 @@ c. Perform the corrector step to update the decision variables.
 
 Termination: Stop the iterations when the termination criterion is met (e.g., tolerance on the central path measure).
 
-#Central Path Adaptive
+# Central Path Adaptive
 The Central Path Adaptive algorithm is an improvement over the Central Path Fixed algorithm. It dynamically adjusts the step lengths (alpha_prime and alpha_dual) during each iteration, allowing for more efficient convergence. The algorithm follows these steps:
 
 Initialization: Initialize the decision variables, slack variables, and Lagrange multipliers.
